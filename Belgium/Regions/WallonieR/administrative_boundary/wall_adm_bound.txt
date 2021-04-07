@@ -1,0 +1,14 @@
+
+
+
+[out:json][timeout:250];
+area["name:fr"="Wallonie"]["admin_level"=4]->.a;
+rel["admin_level"=7](area.a);
+out geom;
+
+
+
+
+
+
+
