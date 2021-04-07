@@ -1,0 +1,14 @@
+
+[out:json][timeout:550];
+area["name:fr"="Belgique"]->.a;
+(
+    way["landuse"~"retail|industrial|construction"](area.a);
+);
+out geom;
+
+
+
+
+
+
+
