@@ -1,0 +1,14 @@
+
+[out:xml][timeout:250];
+
+area(3600053134)->.searchArea;
+// gather results
+(
+
+  relation["admin_level"="6"](area.searchArea);  
+  
+);
+// print results
+out meta;
+>;
+out meta;
